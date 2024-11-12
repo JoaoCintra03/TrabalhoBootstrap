@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Unix</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <!-- Navbar -->
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><b>Início</b></a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobreaempresa.html"><b>Sobre a Empresa</b></a></li>
+                    <li class="nav-item"><a class="nav-link" href="equipe.html"><b>Equipe</b></a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtoserviço.html"><b>Produtos/Serviços</b></a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html"><b>Contato</b></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <!-- Seção de Navegação -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="produtoserviço.html">Jogos</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Life is Strange</li>
+            </ol>
+        </nav>
+
+        <!-- Seção de Detalhes do Jogo -->
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/lifeisstrange.jpeg" class="img-fluid" alt="Life is Strange">
+            </div>
+            <div class="col-md-6">
+                <h2>Life is Strange</h2>
+                <h4 class="text-muted">R$ 20,50</h4>
+                <p class="text-success">Disponível para compra</p>
+
+                <p><strong>Descrição:</strong> "Life is Strange" é um jogo de aventura gráfica interativa que explora a história de Max, uma estudante que descobre ter o poder de voltar no tempo. Cada escolha influencia o desfecho, criando uma experiência única e emocionante.</p>
+
+                <ul class="list-unstyled">
+                    <li><strong>Gênero:</strong> Aventura / Drama</li>
+                    <li><strong>Plataforma:</strong> PC, PS4, Xbox</li>
+                    <li><strong>Desenvolvedora:</strong> Dontnod Entertainment</li>
+                    <li><strong>Lançamento:</strong> 2015</li>
+                </ul>
+                
+                <a href="https://wa.me/5511987654321?text=Olá,%20gostaria%20de%20comprar%20o%20produto%20Produto%20Exemplo!" target="_blank"
+                 class="btn btn-primary btn-block">Comprar via WhatsApp</a>
+            </div>
+        </div>
+
+        <!-- Seção de Descrição Completa -->
+        <div class="mt-5">
+            <h3>Descrição Completa</h3>
+            <p>Life is Strange oferece uma experiência narrativa que permite aos jogadores explorar as complexidades das relações e dilemas morais. O enredo aborda temas como amizade, identidade e escolhas, com gráficos envolventes e trilha sonora emocionante que capturam a atmosfera do jogo.</p>
+            <p>Com a habilidade de retroceder no tempo, os jogadores podem reviver cenas e fazer novas escolhas, explorando como cada ação impacta o futuro de Max e seus amigos.</p>
+        </div>
+
+        <!-- Seção de Requisitos Técnicos -->
+        <div class="mt-5">
+            <h3>Requisitos do Sistema</h3>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <th scope="row">Sistema Operacional</th>
+                        <td>Windows 7/8/10</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Processador</th>
+                        <td>Intel Core i3 2.0 GHz</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Memória</th>
+                        <td>2 GB de RAM</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Gráficos</th>
+                        <td>NVIDIA GeForce GTX 260</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Armazenamento</th>
+                        <td>5 GB de espaço disponível</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Trailer Incorporado -->
+        <div class="mt-5">
+            <h3>Assista ao Trailer</h3>
+            <div class="embed-responsive embed-responsive-16by9 mb-3">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mpRhaXfvG_0" allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/watch?v=mpRhaXfvG_0" target="_blank" class="btn btn-outline-primary">
+                Assistir no YouTube
+            </a>
+        </div>
+    </div>
+    <footer class="footer" style="background-color:  #2f3134; color: white">
+        <div class="container text-center py-4">
+            <h5>Contato</h5>
+            <p><i class="fa-solid fa-envelope"></i> Email: unix@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> Telefone: (44) 99880-3174</p>
+            <p><i class="fa-solid fa-location-dot"></i>Localização: Av. Paraná, 7327 Zona III, Faculdade Unialfa</p>
+            <div class="social-icons my-3">
+                <a href="https://api.whatsapp.com/send?phone=5511999999999" class="text-white" target="_blank">
+                    <i class="fa-brands fa-whatsapp fa-lg"></i>
+                </a>
+                <a href="https://www.facebook.com" class="text-white mx-3" target="_blank">
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                </a>
+                <a href="https://www.twitter.com" class="text-white" target="_blank">
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                </a>
+                <a href="https://www.instagram.com" class="text-white mx-3" target="_blank">
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                </a>
+            </div>
+        
+        </div>
+      </footer>
+</body>
+</html>
